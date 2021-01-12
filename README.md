@@ -7,18 +7,17 @@
 2020年CITロボットシステム学課題２として作成したブラウザからLEDのON・OFFを制御できるパッケージです。
 
 # インスト―ル方法
-
-$ cd ~/catkin_ws/src/
-$ git clone https://github.com/aprsoshan/ROS_WEBled.git
-$ cd ..
-$ catkin_make
+  $ cd ~/catkin_ws/src/
+  $ git clone https://github.com/aprsoshan/ROS_WEBled.git
+  $ cd ..
+  $ catkin_make
 
 # 実行方法
-$ sudo apt install ros-catkin-rosbridge-suite
-$ roscore
-$ roslaunch rosbridge_server rosbridge_websocket.launch
-$ rosrun ROS_WEBled webserver.py
-$ rosrun ROS_WEBled led.py
+  $ sudo apt install ros-catkin-rosbridge-suite
+  $ roscore
+  $ roslaunch rosbridge_server rosbridge_websocket.launch
+  $ rosrun ROS_WEBled webserver.py
+  $ rosrun ROS_WEBled led.py
 
 # 説明
 
